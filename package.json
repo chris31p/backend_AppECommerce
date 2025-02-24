@@ -1,0 +1,45 @@
+{
+  "name": "ecommerce_backend",
+  "version": "1.0.0",
+  "description": "backend de la app de suscripcion de alimentos frescos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris31p/backend_AppECommerce.git"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express",
+    "jwt",
+    "mongoose",
+    "stripe",
+    "swagger",
+    "ecommerce"
+  ],
+  "author": "christopher pesantez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris31p/backend_AppECommerce/issues"
+  },
+  "homepage": "https://github.com/chris31p/backend_AppECommerce#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "openapi-backend": "^5.11.1",
+    "stripe": "^17.6.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
