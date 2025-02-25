@@ -47,7 +47,7 @@ exports.updateProductById = async (req, res) => {
     });
     if (!updatedProduct)
       return res.status(404).json({ msg: "Producto no encontrado" });
-    res.json({ msg: "Producto actualizado con éxito " }, updatedProduct);
+    res.status(200).json({ msg: "Producto actualizado con éxito ", updatedProduct});
   } catch (error) {
     res.status(500).json({ message: "Error al actualizar el producto" });
   }
