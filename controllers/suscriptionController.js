@@ -55,7 +55,7 @@ exports.getUserSuscription = async(req, res) =>{
         if(!suscriptions.length){
             return res.status(404).json({msg: "No tienes suscripciones activas"});
         }
-        res.status(200).json(suscriptions);
+        res.status(200).json({msg: "Lista suscripcion",suscriptions});
     } catch (error) {
         res.status(500).json({msg: "Error al obtener suscripciones", error})
     }
